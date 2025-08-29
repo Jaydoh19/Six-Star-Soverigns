@@ -1,0 +1,29 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Bebas Neue, sans-serif;
+}
+
+/* Flex container for header */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  display: inline-block;
+}
+
+ul li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
