@@ -88,7 +88,7 @@ nav ul li:hover {
 }
 
 .hero-content h4 {
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-bottom: 0.5em;
   font-weight: 400;
 }
@@ -100,7 +100,8 @@ nav ul li:hover {
 }
 
 .hero-content h1 span {
-  color: orange; 
+  color: red; 
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
 .hero-content p {
@@ -119,13 +120,13 @@ nav ul li:hover {
   border-radius: 50px;
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .hero-btn:hover {
-  background: black;
+  background: red;
   color: white;
-  border: 1px solid white;
+  transform: scale(1.1);
 }
 
 
