@@ -3,6 +3,11 @@ html {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;  
+  color: black;           
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -59,6 +64,7 @@ nav ul li:hover {
   transform: scale(1.2);
 }
 
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -107,14 +113,14 @@ nav ul li:hover {
 .hero-content p {
   font-size: 1.2em;
   margin: 1em 0;
-  color: #ddd;
+  color: #ffffff;
 }
 
 /* Button */
 .hero-btn {
   display: inline-block;
   padding: 0.75em 1.5em;
-  font-size: 1em;
+  font-size: 1.2em;
   background: white;
   color: black;
   border-radius: 50px;
