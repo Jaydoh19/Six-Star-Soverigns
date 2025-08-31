@@ -136,9 +136,21 @@ nav ul li:hover {
 }
 
 /* Section 1 */
+
 .section1 {
+  margin: 20em 0 20em 0;
+}
+
+.section1 img {
+  width: 40%;
+  height: 40%;
+}
+
+/* Section 2 */
+.section2 {
   position: relative;
-  height: 100vh; /* full screen */
-  background: url("shark.jpg") center/cover no-repeat;
+  height: 50vh; /* full screen */
+  background: url("cider mill.jpg") center/cover no-repeat;
+  padding-bottom: 40em;
 }
 
