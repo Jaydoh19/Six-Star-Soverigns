@@ -135,4 +135,10 @@ nav ul li:hover {
   transform: scale(1.1);
 }
 
+/* Section 1 */
+.section1 {
+  position: relative;
+  height: 100vh; /* full screen */
+  background: url("shark.jpg") center/cover no-repeat;
+}
 
