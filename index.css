@@ -144,13 +144,14 @@ nav ul li:hover {
 .section1 img {
   width: 40%;
   height: 40%;
+  padding-left: 15em;
 }
 
 /* Section 2 */
 .section2 {
   position: relative;
-  height: 50vh; /* full screen */
+  height: 15vh; /* full screen */
   background: url("cider mill.jpg") center/cover no-repeat;
-  padding-bottom: 40em;
+  padding-bottom: 60em;
 }
 
