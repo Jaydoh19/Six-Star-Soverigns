@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: 'Drugsther';
+  src: url('fonts/Drugsther.otf') format('opentype');
+}
+
 html {
   font-size: 16px;
 }
@@ -35,8 +40,9 @@ body {
 
 .header-container p {
   color: white;
-  font-size: 2.5em;
-  letter-spacing: 0.2em;
+  font-family: Drugsther, sans-serif;
+  font-size: 2.7em;
+
 }
 
 .logo {
@@ -102,11 +108,11 @@ nav ul li:hover {
 .hero-content h1 {
   font-size: 3em;
   line-height: 1.2;
-  margin: 0.5em 0;
+  margin: 1em 0 1em 0;
 }
 
 .hero-content h1 span {
-  color: red; 
+  color: white; 
   text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
 }
 
@@ -146,6 +152,14 @@ nav ul li:hover {
   background-position: center;
 }
 
+.section1::before {
+  content: "";
+  position: absolute;
+  inset: 0;  /* shorthand for top:0; right:0; bottom:0; left:0 */
+  backdrop-filter: blur(4px);     /* the blur effect */
+  z-index: 0;
+}
+
 .section1 img {
   width: 40%;
   height: 40%;
@@ -171,21 +185,19 @@ nav ul li:hover {
 
 .section1 p {
   color: white;
-  font-size: 2em;
+  font-size: 2.3em;
 
 }
 
 .section1 span {
-  font-size: 2.3em;
+  font-size: 2.5em;
   text-wrap: nowrap;
-  color: black;
+  color: white;
   letter-spacing: 0.1em;
-  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
 .text-content{
-  max-width: 30em;
+  max-width: 40em;
 }
 
 /* Section 2 */
